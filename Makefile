@@ -4,7 +4,7 @@ clean:
 	echo cleaned
 
 cpp:
-	mkdir bin
+	-mkdir bin
 	clang++ -o bin/multisocks_cpp src/cpp/main.cpp
 
 csharp:
